@@ -1,0 +1,14 @@
+..docker
+.devcontainer
+.history
+.ipynb_checkpoints
+.vscode
+.env
+dataset/
+*.exe
+*.stackdump
+venv/
+*.csv
+*.
+*.pyc
+app/__pycache__/
