@@ -1,8 +1,8 @@
 FROM python:3.8
 
-WORKDIR /app
+WORKDIR /
 
-COPY . /app/app
+COPY . /app
 RUN pip install -r app/requirements.txt 
 
 EXPOSE 8000

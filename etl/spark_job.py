@@ -57,7 +57,7 @@ avg(rating) OVER (PARTITION BY userID
              ROWS BETWEEN UNBOUNDED PRECEDING 
              AND 1 PRECEDING)  as avg_ratings_previous
 
-from ratings_raw where userId = 1
+from ratings_raw
 """
 )
 

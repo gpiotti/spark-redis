@@ -1,6 +1,0 @@
-boto3
-aioredis
-redis
-asyncio
-awswrangler
-fastapi
