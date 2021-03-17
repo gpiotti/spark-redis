@@ -46,6 +46,7 @@ async def go():
         if ix % 50 == 0 and ix > 0:
             logging.info("Loaded {ix+1} users...")
         for _, row in chunk.iterrows():
+            print(row)
             k, v = create_payload(row)
             await r.set(k, v)
     r.close()
